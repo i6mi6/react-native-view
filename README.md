@@ -93,6 +93,7 @@ import View from 'react-native-view';
 
 
 By default paddings can be set using breakpoints:
+
 | name | value in px |
 | ------ | ------ |
 | sm | 5 |
