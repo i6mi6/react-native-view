@@ -17,11 +17,11 @@ import View from 'react-native-view';
 # Usage
 
 ## Align content
-#
+
 
 #### Example
 
-##### - center children horizontally
+- ##### center children horizontally
 
 ```javascript
 <View hcenter>
@@ -31,7 +31,7 @@ import View from 'react-native-view';
 ![alt text](https://github.com/i6mi6/react-native-view/blob/master/docs/hcenter.png?raw=true "hcenter")
 
 
-##### - align children to the left
+- ##### align children to the left
 
 ```javascript
 <View hstart>
@@ -41,7 +41,7 @@ import View from 'react-native-view';
 ![alt text](https://github.com/i6mi6/react-native-view/blob/master/docs/hstart.png?raw=true "hstart")
 
 
-##### - center children horizontally and vertically
+- ##### center children horizontally and vertically
 
 ```javascript
 <View vcenter hcenter>
@@ -69,7 +69,7 @@ import View from 'react-native-view';
 ## More examples:
 
 
-##### spread
+- ##### spread
 
 ```javascript
 <View spread hcenter>
@@ -79,7 +79,7 @@ import View from 'react-native-view';
 ![alt text](https://github.com/i6mi6/react-native-view/blob/master/docs/spread.png?raw=true "push")
 
 
-##### push
+- ##### push
 
 ```javascript
 <View push hcenter>
@@ -104,9 +104,9 @@ Also, you can specify where paddings are applied using directional suffixes: **l
 
 #### Example
 
-#####
 
-#### 15px padding top and left
+
+- #### 15px padding top and left
 
 ```javascript
 <View mdpt mdpl>
@@ -115,7 +115,7 @@ Also, you can specify where paddings are applied using directional suffixes: **l
 ![alt text](https://github.com/i6mi6/react-native-view/blob/master/docs/mdpt_mdpl.png?raw=true "mdpt mdpl")
 
 
-#### 5px padding on all sides
+- #### 5px padding on all sides
 
 ```javascript
 <View smp>
