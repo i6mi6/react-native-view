@@ -17,3 +17,8 @@ import View from 'react-native-view';
   </View>
 /*...*/
 ```
+
+License
+----
+
+MIT
