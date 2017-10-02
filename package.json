@@ -1,0 +1,24 @@
+{
+  "name": "react-native-view",
+  "version": "1.0.0",
+  "description": "A lightweight View component for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i6mi6/react-native-view.git"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "ios"
+  ],
+  "author": "Alexander Vitanov <azlibe1995@gmail.com> (https://github.com/i6mi6)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i6mi6/react-native-view/issues"
+  },
+  "homepage": "https://github.com/i6mi6/react-native-view#readme"
+}
