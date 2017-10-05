@@ -118,7 +118,7 @@ class View extends React.Component {
 	render() {
 		const { bg } = this.props
 		return (
-			<RNView style={[{
+			<RNView {...this.props} style={[{
 				backgroundColor: bg,
 				...this.getBorderStyle(),
 				...this.getItemsAlignment(),
