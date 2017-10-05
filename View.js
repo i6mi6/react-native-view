@@ -7,7 +7,7 @@ import {
 class View extends React.Component {
 
 	getPadding() {
-		var { p, pl, pr, pt, pb, smp, mdp, lgp, xlp,
+		let { p, pl, pr, pt, pb, smp, mdp, lgp, xlp,
 			smpl, smpr, smpt, smpb, mdpl, mdpr, mdpt, mdpb, lgpl, lgpr, lgpt, lgpb,
 			xlpr, xlpl, xlpt, xlpb } = this.props
 		const sm = 5
@@ -34,26 +34,25 @@ class View extends React.Component {
 		xlpr = xlpr ? xl : null
 		xlpb = xlpb ? xl : null
 		xlpt = xlpt ? xl : null
-		var padding = smp || mdp || lgp || xlp || p
-		var style = {
+		const padding = smp || mdp || lgp || xlp || p
+		return {
 			padding,
 			paddingTop: pt || smpt || mdpt || lgpt || xlpt || padding,
 			paddingBottom: pb || smpb || mdpb || lgpb || xlpb || padding,
 			paddingLeft: pl || smpl || mdpl || lgpl || xlpl || padding,
 			paddingRight: pr || smpr || mdpr || lgpr || xlpr || padding
 		}
-		return style
 	}
 
 	getItemsAlignment() {
 		const { row, vstart, vcenter, hcenter, vend, hstart, stretch, hend, spread, push, flex } = this.props
-		var style = { flexDirection: row ? 'row' : "column" }
+		let style = { flexDirection: row ? 'row' : "column" }
 
 		if (flex) {
 			style['flex'] = 1
 		}
 
-		var vprop = row ? 'alignItems' : "justifyContent"
+		const vprop = row ? 'alignItems' : "justifyContent"
 		if (vcenter) {
 			style[vprop] = "center"
 		}
@@ -64,7 +63,7 @@ class View extends React.Component {
 			style[vprop] = "flex-end"
 		}
 
-		var hprop = row ? "justifyContent" : 'alignItems'
+		const hprop = row ? "justifyContent" : 'alignItems'
 		if (hcenter) {
 			style[hprop] = "center"
 		}
@@ -88,7 +87,7 @@ class View extends React.Component {
 
 	getDimensions() {
 		const { w, h } = this.props
-		var style = {}
+		let style = {}
 
 		if (w) {
 			style['width'] = w
@@ -101,7 +100,7 @@ class View extends React.Component {
 
 	getBorderStyle() {
 		const { border } = this.props
-		var style = {}
+		let style = {}
 		if (border) {
 			var borderColor = border.color || "#000"
 			style = {
