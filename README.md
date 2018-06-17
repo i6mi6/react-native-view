@@ -1,6 +1,8 @@
 # react-native-view
 A lightweight View component that can be styled quickly.
 
+[![NPM](https://nodei.co/npm/react-native-view.png)](https://www.npmjs.com/package/react-native-view)
+
 Installation
 ---
 ```javascript
